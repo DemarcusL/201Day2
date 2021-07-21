@@ -1,83 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>201Day2</title>
+    <title>Lab 02 About Me</title>
+    <style>
+        body {
+        background-color: black;
+        color: rgb(34, 119, 119);
+        }
+        
+        h1 {
+        color: aquamarine;
+        }
+    
+    </style>
+
 </head>
-<body>
-    <h1>Don't panic ! the is 201Day2 !</h1>
-    <script>
-        
-        // do a sanity test, if it appears with the dev tools in brower, it worked !
-        console.log("sanity test passed!!!");
 
-        // Data Types
-        // string
-        let myString = "my string";
+<body> 
+    <header><h1> Welcome To My Page </header></h1>
 
-        // Number
-        let myNumber = 10;
-        let myNumber2 = "3.14"; 
+    <main><h2><center>
+        <p>
+             To tell you a little about me my name is Demarcus Lester. I am 23 years old and live in Memphis, TN. I was born and raised here so I'm very familar with the city and culture. I graduated highschool in 2016 and went to UT Knoxville the same year. I came home in late 2017 and have been working on the security indstry for two plus years now. I have decided early 2021 to pursue programming through this program with CodeCrew and am excited for the journey!
+        </p>
+    </main></h2></center>
 
-        // Boolean is either true or false
-        let isItTrue = true;
-        let isDefFalse = false;
+    <footer>
 
-        // Let's do some checks
-        let age = 24;
-        let age2 = 30;
-        let value = 1990;
-
-        //Expressions
-        let result = ((myNumber === myNumber2 || age === age2) || value === 1990);
-
-        let result2 = (myNumber === myNumber2 || age === age2);
-
-        console.log(" The result of the comparison is: " + result);
-        
-        //Do some conditional logic
-        if (value === 1990)
-        {
-            console.log("That is indeed a great album by Awolnation!");
-        }
-
-        else if (age === 36)
-        {
-            console.log("Ok then ... you are 36");
-            if (value > 1000)
+        <script>
+            let myName = true;
+            while (myName)
             {
-                console.log(OMG);
+                let response = prompt("Is my name Demarcus Lester?").toLowerCase(); // user should enter 'y' or 'n'
+                if (response === 'y' || response === 'yes')
+                {
+                    myName = false;
+                    //console.log(myName);
+                    alert( " You have guessed that my name is Demarcus Lester " );
+                } 
+                else
+                {
+                    alert( " You have guessed incorectly my name. ");
+                }
             }
-        }
-        else 
-        {
-            console.log("Nothing is true");
-        } 
 
-        // Classics of loops
-        for (let index = 0; (index < 10); index + 1) 
+            let myHometown = true;
+            while (myHometown)
             {
-            console.log("Still looping... ");           
+                let response = prompt("Am I from Memphis, Tn born and raised?").toLowerCase(); // user should enter 'y' or 'n'
+                if (response === 'y' || response === 'yes')
+                {
+                    myHometown = false;
+                    //console.log(myHometown);
+                    alert( " You have guessed that I am from Memphis, TN " );
+                } 
+                else
+                {
+                    alert( " You have guessed incorectly my hometown. ");
+                }
             }
-              {
-            console.log("out of loop");
-              }
-        // Simple while loop
-        let iamNotdone = true;
-        while (iamNotdone)
-        {
-            let response = prompt("R you done").toLowerCase(); // user should enter 'y' or 'n'
-            if (response.toLowerCase() === 'y' || response.toLowerCase() === 'yes')
+
+            let myAge = true;
+            while (myAge)
             {
-                iamNotdone = false;
-            } 
+                let response = prompt("Am I 23 years old?").toLowerCase(); // user should enter 'y' or 'n'
+                if (response === 'y' || response === 'yes')
+                {
+                    myAge = false;
+                    //console.log(myAge);
+                    alert( " You have guessed that I am 23 years old " );
+                }
+                else
+                {
+                    alert( " You have guessed incorectly my age. ");
+                }
+                 
+            }
 
-        }
+            let myWork = true;
+            while (myWork)
+            {
+                let response = prompt("Am I top flight security or not?").toLowerCase(); // user should enter 'y' or 'n'
+                if (response === 'y' || response === 'yes')
+                {
+                    myWork = false;
+                    //console.log(myWork);
+                    alert( " You have guessed that I am indeed top flight securty " );
+                } 
+                else
+                {
+                    alert( " You have guessed incorectly my work life. ");
+                }
+            }
+
+            let mySchool = true;
+            while (mySchool)
+            {
+                let response = prompt("Did I attend UT Knoxville in 2016?").toLowerCase(); // user should enter 'y' or 'n'
+                if (response === 'y' || response === 'yes')
+                {
+                    mySchool = false;
+                    //console.log(mySchool);
+                    alert( " You have guessed that I attended UT Knoxville " );
+                } 
+                else
+                {
+                    alert( " You have guessed incorectly my school history. ");
+                }
+            }
+
+             let yourName = prompt("What is your name?") // User should enter their own name and recieve it back
+            {   
+            alert("Welcome to my page "  + yourName +  " and please let me know if you learned anything about me!");
+
+          }
+
+       </script>
 
 
-
-    </script> 
+    </footer>
+    
 </body>
+
+
 </html>
