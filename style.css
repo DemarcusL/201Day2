@@ -2,12 +2,54 @@ body {
   background-color: black;
   text-decoration: none;
   text-align: center;
-  color: rgb(184, 1, 1);
+  color: white;
   font-family: "Helvetica", sans-serif;
 }
+
 div {
-    width: 300px;
-    border: 25px solid green;
-    padding: 50px;
-    margin: 20px;
+    text-align: center;
+    width: 500px;
+    border: 14px solid #cfe600e0; 
+    padding: 5px;
+    margin: 25px;
+    float:
 }
+
+h2 {
+    text-align: center;
+    width: 500px;
+    border: 5px solid #cfe600e0; 
+    padding: 6px;
+    margin: 25px;
+} 
+
+h3 {
+    text-align: left;
+    width: 500px;
+    border: 5px solid #003ae6d7; 
+    padding: 30px;
+    margin: 25px;
+    float:
+} 
+
+h4 {
+    text-align: center;
+    width: 500px;
+    /* border: 5px solid #0039e6; I added this intending to use code. Couldnt get it to work. */
+    padding: 5px;
+    margin: 25px;
+    float:
+} 
+
+p {
+    width: 400px;
+    border: 20px solid #fbff05d3;
+    padding: 5px;
+    margin: 25px;
+    float: right;
+}
+
+
+
+
+

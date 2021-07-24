@@ -1,104 +1,135 @@
-let yourName = prompt("What is your name?") // User should enter their own name and recieve it back
-{
-    alert("Welcome to my page " + yourName + " and please let me know if you learned anything about me!");
+// alert(
+//   " Before we begin. Please be seated because you mind is about to be blown because I know . . . " // I wanted to welcome with a game to feel ineractive
+// );
+// // I wanted to welcome with a game to feel ineractive
+// alert(
+//   " . . . wait for it . . . "
+// );
+// alert("  . . . YOU HAVE SUPER POWERS. ");
+// alert(" You can read my mind from what I assume. Now GUESS these answers to test it ! ");
 
-} // I want the user the user to be promted upon entering the webpage. instead of at the end.
+// let yourName = prompt("Sorry.  *how rude of me*  What is your name young Hero?"); // User should enter their own name and recieve it back // requirement for lab 2
+// {
+//   alert(
+//     "It's very nice to meet you " +
+//       yourName +
+//       " ! Like I said , " +
+//       yourName +
+//       " , you have the Super Power to READ MINDS. So let's test this with a guessing game !"
+//   );
 
-let myName = true;
-while (myName) {
-    let response = prompt("Is my name Demarcus Lester?").toLowerCase(); // user should enter 'y' or 'n'
-    if (response === 'y' || response === 'yes') {
-        myName = false;
-        //console.log(myName);
-        alert(" You have guessed that my name is Demarcus Lester ");
-    }
-    else {
-        alert(" You have guessed incorectly my name, please TRY AGAIN! ");
-    }
-}
+//   //another way to get user confirmation, and consent is always a plus for security purposes !
+//   alert
+//     (
+//     "Are you sure you're ready for this test " +
+//       yourName +
+//       " ? " )
+// ;
+//   alert
+//     ( " JUST TYPE 'YES OR 'NO' TO THE FOLLOWING QUESTIONS ! " );
+// } // I want the user the user to be promted upon entering the webpage. instead of at the end.
 
-let myHometown = true;
-while (myHometown) {
-    let response = prompt("Am I from Memphis, Tn born and raised?").toLowerCase(); // user should enter 'y' or 'n'
-    if (response === 'y' || response === 'yes') {
-        myHometown = false;
-        //console.log(myHometown);
-        alert(" You have guessed that I am from Memphis, TN ");
-    }
-    else {
-        alert(" You have guessed incorectly my hometown, TRY AGAIN MANE! ");
-    }
-}
-
-let myAge = true;
-while (myAge) {
-    let response = prompt("Am I 23 years old?").toLowerCase(); // user should enter 'y' or 'n'
-    if (response === 'y' || response === 'yes') {
-        myAge = false;
-        //console.log(myAge);
-        alert(" You have guessed that I am 23 years old ");
-    }
-    else {
-        alert(" You have guessed incorectly my age, I'm not an old fart XD , TRY AGAIN ! ");
-    }
-
-}
-
-let myWork = true;
-while (myWork) {
-    let response = prompt("Am I top flight security or not?").toLowerCase(); // user should enter 'y' or 'n'
-    if (response === 'y' || response === 'yes') {
-        myWork = false;
-        //console.log(myWork);
-        alert(" You have guessed that I am indeed top flight securty ");
-    }
-    else {
-        alert(" You have guessed incorectly my work life, TRY AGAIN ");
-    }
-}
-
-let mySchool = true;
-while (mySchool) {
-    let response = prompt("Did I attend UT Knoxville in 2016?").toLowerCase(); // user should enter 'y' or 'n'
-    if (response === 'y' || response === 'yes') {
-        mySchool = false;
-        //console.log(mySchool);
-        alert(" You have guessed that I attended UT Knoxville ");
-    }
-    else {
-        alert(" You have guessed incorectly my school history, Do I look uneducated to you ? TRY AGAIN ");
-    }
-}
-
-
-//      let yourName = prompt("What is your name?") // User should enter their own name and recieve it back
-//     {   
-//     alert("Welcome to my page "  + yourName +  " and please let me know if you learned anything about me!");
-
+// let myName = true;
+// while (myName) {
+//   // this is an endless thing until conditioned
+//   let response = prompt(
+//     "Firstly, Is my name Demarcus Lester? Just answer"
+//   ).toLowerCase(); // user should enter 'y' or 'n'
+//   if (response === "y" || response === "yes") {
+//     myName = false;
+//     //console.log(myName);
+//     alert(" Woah, You Do have powers. You got that correct.");
+//   } else {
+//     alert(
+//       " *Your head begins to hurt a little bit. You hear a voice say quietly to try again !* "
+//     );
 //   }
-
-let myName = true;
-while (myName) {
-    let response = prompt("Is my name Demarcus Lester?").toLowerCase(); // user should enter 'y' or 'n'
-    if (response === 'y' || response === 'yes') {
-        myName = false;
-        //console.log(myName);
-        alert(" You have guessed that my name is Demarcus Lester ");
-    }
-    else {
-        alert(" You have guessed incorectly my name, please TRY AGAIN! ");
-    }
-}
-
-// let guessedNum = [Grizzlies]
-// while (guessedNumCorrectly) {
-//     let numGuess = prompt(" Guess a number between 0-15 "); // this should be whatever the user inputs
-//     {
-//         console.log(numGuess)
-//     }
 // }
 
-            // for (let i = 0; i < 15 ; i++)
-            // {
-            // console.log()
-            // }
+// let myHometown = true;
+// while (myHometown) {
+//   let response = prompt(" Am I from Memphis, TN? ").toLowerCase(); // user should enter 'y' or 'n'
+//   if (response === "y" || response === "yes") {
+//     myHometown = false;
+//     //console.log(myHometown);
+//     alert(" Mane Mane! You have guessed that I am from Memphis, TN ");
+//   } else {
+//     alert(
+//       " * Another voice has echoed from the void. You realize you must attempt that again *"
+//     );
+//   }
+// }
+
+// let myAge = true;
+// while (myAge) {
+//   let response = prompt("Am I 23 years old?").toLowerCase(); // user should enter 'y' or 'n'
+//   if (response === "y" || response === "yes") {
+//     myAge = false;
+//     //console.log(myAge);
+//     alert(" Look, while you got that CORRECT I am feeling old ! ");
+//   } else {
+//     alert(
+//       " Wow, you got that wrong. *Your head hurts, and the reality around you warps and time reverese a few seconds . "
+//     );
+//   }
+// }
+
+// let myWork = true;
+// while (myWork) {
+//   let response = prompt("Am I top flight security or not?").toLowerCase(); // user should enter 'y' or 'n'
+//   if (response === "y" || response === "yes") {
+//     myWork = false;
+//     //console.log(myWork);
+//     alert(" I AM THE LAW, as long as I observe and report ! Correct ! ");
+//   } else {
+//     alert(
+//       " Your mind broke, and your powers unleased terror! Now reality has warped itself and made it as if the question was never asked ."
+//     );
+//   }
+// }
+
+// let mySchool = true;
+// while (mySchool) {
+//   let response = prompt("Did I attend UT Knoxville in 2016?").toLowerCase(); // user should enter 'y' or 'n'
+//   if (response === "y" || response === "yes") {
+//     mySchool = false;
+//     //console.log(mySchool);
+//     alert(" You have guessed that I attended UT Knoxville ");
+//   } else {
+//     alert(
+//       " You have guessed incorectly my school history, Do I look uneducated to you ? TRY AGAIN "
+//     );
+//   }
+// }
+
+// //      let yourName = prompt("What is your name?") // User should enter their own name and recieve it back
+// //     {
+// //     alert("Welcome to my page "  + yourName +  " and please let me know if you learned anything about me!");
+
+// //   }
+
+// // let myNum = 9; // Requirement for Lab 3
+// // while (myNum) {
+// //     let response = prompt("Guess a number between 1 - 15"); // user should enter 'y' or 'n'
+// //     if (response === '9') {
+// //         myName = ;
+// //         //console.log(myName);
+// //         alert(" You Have Guessed The Correct Number ");
+// //     }
+// //     else {
+// //         alert(" You Have Guessed Incorectly The Number ");
+// //     }
+// // }
+
+// // let guessedNum = [Grizzlies]
+// // while (guessedNumCorrectly) {
+// //     let numGuess = prompt(" Guess a number between 0-15 "); // this should be whatever the user inputs
+// //     {
+// //         console.log(numGuess)
+// //     }
+// // }
+
+// // for (let i = 0; i < 15 ; i++)
+// // {
+// // console.log()
+// // }
