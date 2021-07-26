@@ -95,31 +95,28 @@ while (mySchool) {
     mySchool = false;
     //console.log(mySchool);
     alert(" You have guessed that I attended UT Knoxville ");
-  } else {
+  }
+
+  else {
     alert(
       " You have guessed incorectly my school history, Do I look uneducated to you ? TRY AGAIN "
     );
   }
 }
 
-//      let yourName = prompt("What is your name?") // User should enter their own name and recieve it back
-//     {
-//     alert("Welcome to my page "  + yourName +  " and please let me know if you learned anything about me!");
 
-//   }
-
-// let myNum = 9; // Requirement for Lab 3
-// while (myNum) {
-//     let response = prompt("Guess a number between 1 - 15"); // user should enter 'y' or 'n'
-//     if (response === '9') {
-//         myName = ;
-//         //console.log(myName);
-//         alert(" You Have Guessed The Correct Number ");
-//     }
-//     else {
-//         alert(" You Have Guessed Incorectly The Number ");
-//     }
-// }
+let myNum = true; // Requirement for Lab 3
+while (myNum) {
+    let response = prompt("Guess a number between 1 - 15"); // This is where I set my conditions
+    if (response ==='9') {
+        myNum = false ;
+        console.log(myNum);
+        alert(" You Have Guessed The Correct Number ");
+    }
+    else {
+        alert(" Warning. You Have Incorrectly Guessed The Number. Please Try Again ");
+    }
+}
 
 // let guessedNum = [Grizzlies]
 // while (guessedNumCorrectly) {
