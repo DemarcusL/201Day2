@@ -12,21 +12,21 @@ let yourName = prompt("Sorry.  *how rude of me*  What is your name young Hero?")
 {
   alert(
     "It's very nice to meet you " +
-      yourName +
-      " ! Like I said , " +
-      yourName +
-      " , you have the Super Power to READ MINDS. So let's test this with a guessing game !"
+    yourName +
+    " ! Like I said , " +
+    yourName +
+    " , you have the Super Power to READ MINDS. So let's test this with a guessing game !"
   );
 
   //another way to get user confirmation, and consent is always a plus for security purposes !
   alert
     (
-    "Are you sure you're ready for this test " +
+      "Are you sure you're ready for this test " +
       yourName +
-      " ? " )
-;
+      " ? ")
+    ;
   alert
-    ( " JUST TYPE 'YES OR 'NO' TO THE FOLLOWING QUESTIONS ! " );
+    (" JUST TYPE 'YES OR 'NO' TO THE FOLLOWING QUESTIONS ! ");
 } // I want the user the user to be promted upon entering the webpage. instead of at the end.
 
 let myName = true;
@@ -107,26 +107,30 @@ while (mySchool) {
 
 let myNum = true; // Requirement for Lab 3
 while (myNum) {
-    let response = prompt("Guess a number between 1 - 15"); // This is where I set my conditions
-    if (response ==='9') {
-        myNum = false ;
-        console.log(myNum);
-        alert(" You Have Guessed The Correct Number ");
-    }
-    else {
-        alert(" Warning. You Have Incorrectly Guessed The Number. Please Try Again ");
-    }
+  let response = prompt("Guess a number between 1 - 15"); // This is where I set my conditions
+  if (response === '9') {
+    myNum = false;
+    console.log(myNum);
+    alert(" You Have Guessed The Correct Number ");
+  }
+  else {
+    alert(" Warning. You Have Incorrectly Guessed The Number. Please Try Again ");
+  }
 }
 
-// let guessedNum = [Grizzlies]
-// while (guessedNumCorrectly) {
-//     let numGuess = prompt(" Guess a number between 0-15 "); // this should be whatever the user inputs
-//     {
-//         console.log(numGuess)
-//     }
-// }
 
-// for (let i = 0; i < 15 ; i++)
-// {
-// console.log()
-// }
+
+let topArtist = ['Vince Staples', 'Travis Scott', 'Mac Miller', 'SMINO', 'Isaiah Rashad', 'Takeoff']
+for (i = 1; i < 7; i++) {// This will let them guess for 7 chances. the i++ will loop til less than 7 is not true
+  
+    let artistGuess = prompt(" Guess who is my favorite artist? "); // this should be whatever the user inputs, it will be only one answer but until it is typed, their chnaces will run out.  
+    if (artistGuess === guessedArtist[0]) {
+    
+    correctAnswer++;
+    // console.log(numGuess)
+  }
+}
+
+for (let i = 0; i < 15; i++) {
+  console.log()
+}
